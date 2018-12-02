@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class GraficoDonaComponent implements OnInit {
 
+  // Variables obtenidas desde componente Padre graficas1.component
   @Input('ChartLabels') public doughnutChartLabels: string[] = [];
   @Input('ChartData') public doughnutChartData: number[] = [];
   @Input('ChartType') public doughnutChartType: string = '';
